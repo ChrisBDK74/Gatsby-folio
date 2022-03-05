@@ -10,6 +10,7 @@ const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
   maxWidth: 320,
+  color: "#E6AD2B",
 }
 const headingAccentStyles = {
   color: "#663399",
@@ -131,19 +132,19 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>UX Portfolio</title>
       <h1 style={headingStyles}>
-        Welcome
+        Chris Bering
         <br />
         <span style={headingAccentStyles}>UX / UI Designer </span>
-        <span role="img" aria-label="Party popper emojis">
+        {/* <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
-        </span>
+        </span> */}
       </h1>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
+        {/* <span role="img" aria-label="Sunglasses smiley emoji">
           😎
-        </span>
+        </span> */}
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
