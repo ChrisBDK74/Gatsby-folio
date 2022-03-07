@@ -18,8 +18,8 @@ module.exports = {
   }, {
     resolve: 'gatsby-source-filesystem',
     options: {
-      "name": "pages",
-      "path": "./src/pages/"
+      "name": "works",
+      "path": `${__dirname}/works`,
     },
     __key: "pages"
   }]

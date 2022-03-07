@@ -1,15 +1,32 @@
 import * as React from 'react';
 import Layout from '../components/layout';
+import { graphql } from 'gatsby';
 
 
-const WorksPage = () => {
+const WorksPage = ({ data }) => {
     return (
         <Layout pageTitle="Works">
-            <h2>Selected Works</h2>
-            <p>I'm a webdesigner and UX designer with more than 15 years of experience in creating
-            websites and consulting on improving the user experience on websites for companies.</p>
+            
+            <ul>
+                {
+                    data.allFile.nodes.map(node => (
+                        <li key={node.name}>
+                            {node.name}
+                        </li>
+                    ))
+                }
+            </ul>
         </Layout>
     )
 }
+
+export const query = graphql`
+query {
+    allFile {
+        nodes {
+            name
+        }
+    }
+}`
 
 export default WorksPage;
