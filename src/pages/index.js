@@ -10,7 +10,7 @@ const IndexPage = () => {
       <p>UX Designer specializing in website audit and review.</p>
       <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="../images/goya-tee1.png"
+        src="../images/ux-site-front.png"
       />
     </Layout>
   )

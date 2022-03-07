@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-      title: `new`,
+      title: `Chris Bering`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
