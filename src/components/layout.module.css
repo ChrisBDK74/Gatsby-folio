@@ -1,5 +1,6 @@
 body {
     background-color: #FDFCF2;
+    
 }
 
 
@@ -24,12 +25,13 @@ body {
   }
 
   .nav-link-text {
-    color: black;
+    color: #4B1C64;
+    font-size: 1.2rem;
     text-decoration: none;
   }
 
   .site-title {
-      font-size: 3rem;
+      font-size: 2rem;
       color: #E6AD2B;
       font-weight: 900;
       margin: 3rem 0;
