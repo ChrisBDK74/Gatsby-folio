@@ -18,6 +18,7 @@ body {
     display: flex;
     list-style: none;
     padding-left: 0;
+    
   }
 
   .nav-link-item {
