@@ -1,0 +1,35 @@
+.about-container {
+    margin: auto;
+    max-width:100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+.left-frame {
+    /* border: 1px solid #4B1C64; */
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.concept-title {
+    color: #E6AD2B;
+}
+
+.middle-frame {
+    border: 1px solid #4B1C64;
+}
+
+.right-frame {
+    border: 1px solid #4B1C64;
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    color: cadetblue;
+}

@@ -36,6 +36,7 @@ query {
       slug
     }
   }
-}`
+}
+`
 
 export default WorksPage;

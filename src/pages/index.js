@@ -12,9 +12,6 @@ const IndexPage = () => {
         alt="Main page logo imagery "
         src="../images/ux-site-front.png"
       />
-      <section>
-        This is a new section with loads of content!
-      </section>
     </Layout>
   )
 }
