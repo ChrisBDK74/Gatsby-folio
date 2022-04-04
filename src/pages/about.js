@@ -10,11 +10,12 @@ const AboutPage = () => {
             <div className='left-frame'>
                 <div className='concept'>
                     <h2 className='concept-title'>Concept</h2>
-                    <p className='concept-body'>Sed nunc <span>turpis</span>, fringilla ut egestas tristique, molestie tincidunt tortor. 
-                        Phasellus scelerisque facilisis tellus, sit amet viverra tellus ullamcorper at. 
-                        Sed pretium lacinia metus, rhoncus egestas velit cursus id. Ut efficitur viverra 
-                        nunc ac laoreet. Nulla venenatis ultrices congue. Duis eget scelerisque lectus. 
-                        Mauris quis viverra tortor.</p>
+                    <p className='concept-body'>I'm a Danish UX Designer living in Nishinomiya, Japan with my wife and our 3 year old son. 
+                    I have two superpowers: Empathy and Problem Solving!I am passionate about creating better products and services 
+                    for everyone, not just “target groups”. Through the past 15 years as a freelance web designer, I have learned 
+                    and used many elements and principles of UX Design. Now I am focusing on UX Design full time as 
+                    this is my true passion!When I am not thinking or dreaming about UX Design, I love to travel with my wife 
+                    and son and, depending on the destination, go scuba diving.</p>
                 </div>
             </div>
             <div className='middle-frame'>Middle Frame</div>
